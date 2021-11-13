@@ -1,4 +1,4 @@
 En este archivo se debe realizar la presentaciòn de cada uno de los integrantes del equipo
 
-Integrante 1: Mi nombre es Cristian Parra, tengo 28 años, soy ingeniero electrónico y actualmente trabajo como Desarrollador .NET, sin embargo me gustaria aprender 
-más tecnologías.
+Integrante 2: Mi nombre es Daniel Cavadía, oriundo de Córdoba con 28 años, soy Ingeniero Mecánico y actualmente solo me encuentro
+dedicado al aprendizaje de la programación enfocado a la mecánica computacional.
