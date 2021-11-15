@@ -6,5 +6,7 @@ más tecnologías.
 Integrante 2: Mi nombre es Daniel Cavadía, oriundo de Córdoba con 28 años, soy Ingeniero Mecánico y actualmente solo me encuentro
 dedicado al aprendizaje de la programación enfocado a la mecánica computacional.
 
-Integrante 3: 
-Mi nombre es Juan José Ávila Sánchez, tengo 26 años, soy de la ciudad de Montería. Actualmente estoy iniciando en el mundo de la programación, mi objetivo es conocer y tratar de convertirme en desarrollador de aplicaciones.
+Integrante 3: Mi nombre es Juan José Ávila Sánchez, tengo 26 años, soy de la ciudad de Montería. Actualmente estoy iniciando en el mundo de la programación, mi objetivo es conocer y tratar de convertirme en desarrollador de aplicaciones.
+
+Integrante 4: Mi nombre es Alexander Zapata, Ingeniero Eléctronico. Mi meta con el curso MinTIC es aprender las herramientas necesarias de programación para crear mis propios desarrolos.
+En lo que pueda ayudar con todo gusto. 
