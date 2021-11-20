@@ -2,8 +2,11 @@
 
 PROYECTO 4DEVS 
 
+Usar npm install 
 
 Iniciar con npm start
+
+
 Conectar a MONGODB
 
 Metodo POST
