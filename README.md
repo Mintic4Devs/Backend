@@ -12,6 +12,7 @@ Conectar a MONGODB
 Metodo POST
 http://localhost:3000/api/project/add
 
+Utilizar esta estructura en Postman o similares para agregar un proyecto
 {
      
    "name": "Nombre del proyecto",
