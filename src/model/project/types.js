@@ -48,7 +48,7 @@ const projectTypes = gql`
   type Mutation {
     createProject(
       name: String!
-      budget: Float!
+      budget: String!
       date_init: Date!
       date_end: Date!
       state: Enum_StateProject!
