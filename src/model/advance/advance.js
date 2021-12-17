@@ -4,33 +4,30 @@ import { UserModel } from '../user/user.js';
 
 const { Schema, model } = mongoose;
 
-
-const progressSchema = new Schema({
-  fecha: {
+const advanceSchema = new Schema({
+  date: {
     type: Date,
     required: true,
   },
-  descripcion: {
+  description: {
     type: String,
     required: true,
   },
-  observaciones: [
+  observation: [
     {
       type: String,
-    },
+    }
   ],
-  proyecto: {
+  project: {
     type: Schema.Types.ObjectId,
     ref: ProjectModel,
     required: true,
   },
-  creadoPor: {
+  created_by: {
     type: Schema.Types.ObjectId,
     ref: UserModel,
     required: true,
   },
 });
 
-const progressModel = model('Avance', progressSchema);
-
-export { progressModel };
+export const progressModel = model('Advance', advanceSchema, 'advance');

@@ -4,34 +4,34 @@ import { UserModel } from '../user/user.js';
 
 const { Schema, model } = mongoose;
 
-
+//Schema
 const inscriptionSchema = new Schema({
-  estado: {
-    type: String,
-    enum: ['ACEPTADO', 'RECHAZADO', 'PENDIENTE'],
-    default: 'PENDIENTE',
+  date_init: {
+    type: Date,
     required: true,
   },
-  fechaIngreso: {
+  date_end: {
     type: Date,
-    required: false,
+    required: true,
   },
-  fechaEgreso: {
-    type: Date,
-    required: false,
-  },
-  proyecto: {
+  state: [
+    {
+      type: String,
+      enum: ['ACCEPTED', 'REJECTED', 'PENDING'],
+      default: 'PENDING',
+      required: true,
+    }
+  ],
+  project: {
     type: Schema.Types.ObjectId,
     ref: ProjectModel,
     required: true,
   },
-  estudiante: {
+  student: {
     type: Schema.Types.ObjectId,
     ref: UserModel,
     required: true,
   },
 });
 
-const InscriptionModel = model('Inscripcion', inscriptionSchema);
-
-export { InscriptionModel };
+export const InscriptionModel = model('Inscription', inscriptionSchema, 'inscription');
